@@ -90,6 +90,8 @@ class virtual_world:
         self.floor_dots = False
         self.localize = False
         self.glocalize = False
+
+        self.times = []
         
     def add_obstacle(self,rect):
         self.map.append(rect)
